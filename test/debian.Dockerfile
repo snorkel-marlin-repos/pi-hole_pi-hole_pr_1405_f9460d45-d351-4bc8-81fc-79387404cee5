@@ -1,4 +1,4 @@
-FROM buildpack-deps:jessie-scm
+FROM debian:jessie
 
 ENV GITDIR /etc/.pihole
 ENV SCRIPTDIR /opt/pihole
